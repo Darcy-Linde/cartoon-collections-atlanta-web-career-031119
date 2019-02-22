@@ -5,7 +5,7 @@ def roll_call_dwarves(name_array)
 end
 
 def summon_captain_planet(calls_array)
-  calls_array.map {|call| call.capitalize}
+  calls_array.map {|call| call.capitalize + "!"}
 end
 
 def long_planeteer_calls# code an argument here
