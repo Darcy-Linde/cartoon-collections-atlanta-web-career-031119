@@ -19,6 +19,6 @@ def find_the_cheese(string_array)
      string_array.include?("camembert")
      return true
    else 
-     false
+     nil
    end
 end
