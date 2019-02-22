@@ -19,7 +19,7 @@ def find_the_cheese(string_array)
   elsif string_array.include?("gouda") 
     return "gouda"
   elsif string_array.include?("camembert")
-     return true
+     return "camembert"
    else 
      nil
    end
